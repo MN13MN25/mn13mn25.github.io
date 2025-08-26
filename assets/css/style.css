@@ -1,0 +1,37 @@
+:root {
+    --primary-color: #0045AC;
+    --primary-dark: #00358A;
+    --primary-light: #3A6FC8;
+    --accent-color: #FFD700;
+    --accent-dark: #E6C200;
+    --text-light: #FFFFFF;
+    --text-dark: #2D3748;
+    --bg-dark: #1A202C;
+    --bg-light: #F7FAFC;
+    --transition-speed: 0.4s;
+    --border-radius: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgba(0, 53, 138, 0.9) 0%, rgba(0, 69, 172, 0.9) 100%), 
+                url('https://s2.glbimg.com/h77ybihrD5OxxEDNLK76qeCxEa0=/620x455/e.glbimg.com/og/ed/f/original/2019/06/12/sala-de-estar-tv-rack-sofa-tapete-mesa-lateral-parede-rosa-mesa-de-centro-marcenaria.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: var(--text-light);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Restante do CSS original (todo o conteúdo da tag <style> do seu HTML) */
